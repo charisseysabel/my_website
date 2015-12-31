@@ -1,0 +1,37 @@
+/*
+===================================
+
+	styles.css
+	styles for Charisse website
+
+===================================
+*/
+
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  font-family: "Lato", sans-serif;
+}
+
+h2 {
+	color: #F18620;
+}
+
+.img_block {
+	width: 100%;
+	overflow: hidden;
+}
+
+#navigation {
+	background: fff;
+	padding: 10px;
+}
+
+#navbar ul li a{
+	text-transform: uppercase;
+}
+
+#navbar ul li a:hover {
+	color: #F18620;
+}
