@@ -13,6 +13,7 @@
 
     <!-- fonts -->
     <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lora:400italic' rel='stylesheet' type='text/css'>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
@@ -43,10 +44,10 @@
           
           <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
-              <li class="hvr-underline-reveal"><a href="../about.php">Portfolio</a></li>
+              <li class="hvr-underline-reveal"><a href="../portfolio.php">Portfolio</a></li>
               <li class="hvr-underline-reveal"><a href="../about.php">About</a></li>
-              <li class="hvr-underline-reveal"><a href="#">Blog</a></li>
-              <li class="hvr-underline-reveal"><a href="../about.php">Contact</a></li>
+              <li class="hvr-underline-reveal"><a href="http://www.underneaththehood.wordpress.com">Blog</a></li>
+              <li class="hvr-underline-reveal"><a href="../contact.php">Contact</a></li>
             </ul>
           </div><!--/.nav-collapse -->
 
