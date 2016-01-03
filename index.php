@@ -9,24 +9,29 @@
     <div class="section">
       <p>Works</p>
     </div>
+
     <div class="container">
       <div class="col-xs-6 col-sm-4">
-        <a href="rocket.php"><img src="../img/rocket-thumb.jpg" alt="map" class="work"/></a>
-        <p>A cashflow web application built from the ground up</p>
-        <p>HTML &#8226; CSS &#8226; JS &#8226; PHP &#8226; SQL</p>
-        <p>TODO: ROCKET description</p>
+        <a href="rocket.php">
+          <img src="../img/rocket-thumb.jpg" alt="rocket" class="workImg"/>
+          <p class="workDescription">A cashflow web application built from the ground up</p>
+        </a>
       </div>
+
       <div class="col-xs-6 col-sm-4">
-        <a href="#"><img src="../img/map.jpg" alt="map" class="work"/></a>
-        <p>A database of game items</p>
-        <p>Python &#8226; SQL &#8226; HTML &#8226; CSS</p>
-        <p>TODO: EVERYTHING</p>
+        <a href="#">
+          <img src="../img/map.jpg" alt="map" class="workImg"/>
+          <p class="workDescription">A database of game items</p>
+        </a>
       </div>
+
       <div class="col-xs-6 col-sm-4">
-        <a href="#"><img src="../img/map.jpg" alt="map" class="work"/></a>
-        <p>...</p>
-        <p>...</p>
+        <a href="#">
+          <img src="../img/map.jpg" alt="map" class="workImg"/>
+          <p class="workDescription">...</p>
+        </a>
       </div>
-    </div>
+
+    </div><!-- container collapse -->
 
 <?= (file_get_contents("./templates/footer.php") )?>
