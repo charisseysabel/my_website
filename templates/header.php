@@ -39,7 +39,7 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a href="../index.php"><img src="../img/cyLogo.png" alt="Charisse's logo" width="50" height="50"/></a>
+            <a href="../index.php"><img src="../img/cyLogo.png" alt="Charisse's logo" width="50" height="50" id="cyLogo"/></a>
           </div>
           
           <div id="navbar" class="navbar-collapse collapse">
