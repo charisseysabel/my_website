@@ -1,4 +1,8 @@
-	<footer>
+<div class="container end_note">
+      <p class="greetings">Thanks for dropping by!</p>
+    </div>
+
+      <footer>
         <p>&copy; 2015 Charisse Ysabel De Torres</p>
     </footer>
 
