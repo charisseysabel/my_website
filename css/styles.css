@@ -11,10 +11,13 @@
 body {
   padding-top: 50px;
   padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
   font-family: "Quicksand" sans-serif;
   background: #efefef;
   font-size: 12px;
   color: #777;
+  text-align: center;
 }
 
 h1 {
@@ -22,6 +25,10 @@ h1 {
 }
 
 /* menu */
+#cyLogo {
+  text-align: left; 
+}
+
 .navbar-default {
 	background: none;
 	border-color: #efefef;
@@ -34,13 +41,14 @@ h1 {
 #navbar ul li a{
 	text-transform: uppercase;
   letter-spacing: 2px;
+  transition: color 0.3s ease-in-out;
 }
 
 #navbar ul li a:hover {
 	color: #F18620;
 }
 
-/* Underline Reveal */
+/* Underline Reveal 
 .hvr-underline-reveal {
   display: inline-block;
   vertical-align: middle;
@@ -74,11 +82,10 @@ h1 {
 .hvr-underline-reveal:hover:before, .hvr-underline-reveal:focus:before, .hvr-underline-reveal:active:before {
   -webkit-transform: translateY(0);
   transform: translateY(0);
-}
+}*/
 
 footer {
   margin: 5% 0;
-  text-align: center;
 }
 
 /*
@@ -86,30 +93,48 @@ footer {
   index
 
 */
+  .greetings {
+    font-family: "Lora", serif;
+    color: #c4c4c4;
+  }
+
+  .send_note {
+    padding: 2%;
+  }
+
+  .end_note {
+    padding: 0;
+    margin-top: 5%;
+    width: 100%;
+    font-size: 1.5em;
+  }
+
   .jumbotron {
     padding: 10%;
-    text-align: center;
   }
 
   .jumbotron .container h1{
     text-transform: uppercase;
     font-size: 2em;
-    letter-spacing: 20px;
+    letter-spacing: 5px;
   }
 
   .section {
-    margin-top: 10%;
-    margin-bottom: 5%;
+    margin-top: 8%;
+    margin-bottom: 3%;
   }
 
-  .section p {
+  .section p, #brief_sum{
     text-transform: uppercase;
     letter-spacing: 2px;
-    text-align: center;
+  }
+
+  #brief_sum {
+    color: #F18620;
   }
 
   /* works grid */
-  .col-sm-4 {
+  .col-md-4 {
     padding: 0;
   }
 
@@ -118,6 +143,11 @@ footer {
     overflow: hidden;
   }
 
+  .project_name {
+    font-size: 2em;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
 
   .workDescription {
     position: absolute;
@@ -125,22 +155,73 @@ footer {
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.72);
+    background: rgba(0, 0, 0, 0.60);
     color: #fff;
-    text-align: center;
-    padding: 30% 20%;
+    padding: 25%;
     height: 100%;
 
-    visibility: hidden;
     opacity: 0;
-    -webkit-transition: visibility opacity 0.2s;
-
+    transition: opacity 0.5s ease-in-out;
   }
 
-  .col-xs-6:hover .workDescription {
+  .workDescription p {
+    color: #fff;
+  }
+
+  .col-md-4:hover .workDescription {
     overflow: hidden;
-    visibility: visible;
     opacity: 1;
+  }
+
+  .form_container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+  }
+
+  form {
+    margin-right: auto;
+    margin-left: auto;
+    min-width: 50%;
+    max-width: 50%;
+    padding: 0;
+  }
+
+  form p{
+    text-align: left;
+  }
+
+  input, textarea {
+    padding: 0.5em;
+    width: 100%;
+  }
+
+  textarea {
+    resize: none;
+  }
+
+  .asterisk {
+    color: #F18620;
+  }
+
+  #submit_notice {
+    color: #c4c4c4;
+    font-style: italic;
+  }
+
+  button {
+    text-transform: uppercase;
+    background: none;
+    border: 1px solid #c4c4c4;
+    padding: 10px;
+    border-radius: 2px;
+
+    transition: background 0.5s ease-in-out;
+  }
+
+  button:hover {
+    background: #c4c4c4;
   }
 
 /*
@@ -168,7 +249,7 @@ header h1 {
 }
 
 .article_caption h1{
-  font-family: "Lora", sans-serif;
+  font-family: "Lora", serif;
   text-transform: none;
   text-align: right;
 }
