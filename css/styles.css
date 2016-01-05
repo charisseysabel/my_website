@@ -25,11 +25,8 @@ h1 {
 }
 
 /* menu */
-#cyLogo {
-  text-align: left; 
-}
-
 .navbar-default {
+  text-align: left;
 	background: none;
 	border-color: #efefef;
 }
@@ -38,13 +35,19 @@ h1 {
 	border-color: #efefef;
 }
 
-#navbar ul li a{
+#navbar ul li a {
 	text-transform: uppercase;
   letter-spacing: 2px;
   transition: color 0.3s ease-in-out;
 }
 
-#navbar ul li a:hover {
+#learn_more {
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+  color: #777;
+}
+
+#navbar ul li a:hover, #learn_more:hover {
 	color: #F18620;
 }
 
@@ -86,6 +89,7 @@ h1 {
 
 footer {
   margin: 5% 0;
+  clear: both;
 }
 
 /*
@@ -95,7 +99,7 @@ footer {
 */
   .greetings {
     font-family: "Lora", serif;
-    color: #c4c4c4;
+    color: #B0B0B0;
   }
 
   .send_note {
@@ -206,14 +210,14 @@ footer {
   }
 
   #submit_notice {
-    color: #c4c4c4;
+    color: #B0B0B0;
     font-style: italic;
   }
 
   button {
     text-transform: uppercase;
     background: none;
-    border: 1px solid #c4c4c4;
+    border: 1px solid #B0B0B0;
     padding: 10px;
     border-radius: 2px;
 
@@ -221,14 +225,33 @@ footer {
   }
 
   button:hover {
-    background: #c4c4c4;
+    background: #B0B0B0;
   }
+
+  #note_link {
+    width: 25%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
 
 /*
 
   pages
 
 */
+
+.work_feature {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.col-sm-6 {
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
 #me {
   width: 100%;
   overflow: hidden;
@@ -241,29 +264,39 @@ footer {
 
 .content article {
   text-align: left;
-  margin-right: 20%;
 }
 
 header h1 {
   text-transform: uppercase;
 }
 
-.article_caption h1{
+.work_article h1{
   font-family: "Lora", serif;
   text-transform: none;
-  text-align: right;
 }
 
 .work_title {
   padding: 0;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #B0B0B0
 }
 
 .work_title .container p {
   font-size: 1.5em;
-  color: #c4c4c4;
+  color: #B0B0B0;
 }
 
-.work_article {
-  border-top: 1px solid #C4C4C4;
-  padding-top: 10px;
+.work_img {
+  width: 50%;
+  overflow: hidden;
+}
+
+.article_caption {
+  text-align: left;
+  padding: 0;
+  margin: 0;
+}
+
+.article_img img {
+  width: 100%;
 }
