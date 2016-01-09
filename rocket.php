@@ -73,7 +73,6 @@
   </div>
 
 
-</div>
       <footer>
         <p>&copy; 2015 Charisse Ysabel De Torres</p>
     </footer>
