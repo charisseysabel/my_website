@@ -20,6 +20,10 @@ body {
   text-align: center;
 }
 
+a, a:hover, a:active, a:visited {
+  text-decoration: none;
+}
+
 h1 {
   color: #F18620;
 }
@@ -47,6 +51,7 @@ h2 {
 }
 
 #learn_more {
+  font-family: "Lora", serif;
   text-decoration: none;
   transition: color 0.3s ease-in-out;
   color: #777;
@@ -137,7 +142,7 @@ footer {
     margin-bottom: 3%;
   }
 
-  .section p, #brief_sum{
+  .section p{
     text-transform: uppercase;
     letter-spacing: 2px;
   }
@@ -231,14 +236,16 @@ footer {
     border-radius: 2px;
 
     transition: background 0.5s ease-in-out;
+    transition: color 0.5s ease-in-out;
   }
 
   button:hover {
-    background: #B0B0B0;
+    border: none;
+    color: #efefef;
+    background: #F18620;
   }
 
   #note_link {
-    width: 25%;
     padding-top: 10px;
     padding-bottom: 10px;
   }
@@ -263,7 +270,7 @@ footer {
 }
 
 #me {
-  width: 100%;
+  width: 80%;
   overflow: hidden;
 }
 
@@ -289,7 +296,7 @@ h3 {
 .work_title {
   padding: 0;
   padding-bottom: 20px;
-  border-bottom: 1px solid #B0B0B0
+  border-bottom: 1px solid #B0B0B0;
 }
 
 .work_title .container p {
@@ -310,5 +317,39 @@ h3 {
 .article_img img {
   width: 100%;
   display: inline-block;
+
+}
+
+#email {
+  text-transform: none;
+  font-family: "Lora", serif;
+  font-size: 14px;
+  color: #777;
+
+  background: none;
+  border: 1px solid #B0B0B0;
+  padding: 10px;
+  border-radius: 2px;
+
+  transition: background 0.5s ease-in-out;
+  transition: color 0.5s ease-in-out;
+
+  }
+
+#email:hover {
+    border: none;
+    text-decoration: none;
+    color: #efefef;
+    background: #F18620;
+}
+
+#email:visited {
+  text-decoration: none;
+}
+
+footer {
+  border-top: 1px solid #B0B0B0;
+  padding: 20px;
+  margin-bottom: 0;
 
 }
