@@ -6,9 +6,15 @@
   </div>
 </div>
 
-  <div class="container work_article">
-    <p>Please email me at:<br>
-      <span id="email"><a href="mailto:charisse.ysabel930@gmail.com">charisse.ysabel930@gmail.com</a></span>
+  <div class="section">
+    <p>Leave me a note at:</p>
+</div>
+
+  <div class="container">
+    <p>
+      <a href="mailto:charisse.ysabel930@gmail.com" id="email">
+        charisse.ysabel930@gmail.com
+      </a>
     </p>
   </div>
 
