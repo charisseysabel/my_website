@@ -38,6 +38,10 @@
 
 
 
+  <div class="col-sm-6 article_img">
+      <img src="../img/report.png" class="work_img"/>
+  </div>
+
   <div class="col-sm-6 article_caption">
     <article>     
       <h3>Oh look! Graphs!</h3>      
@@ -50,10 +54,6 @@
         Rocket handles the synchronization of your data so you do not have to do it yourself.
       </p>
     </article>
-  </div>
-
-  <div class="col-sm-6 article_img">
-      <img src="../img/report.png" class="work_img"/>
   </div>
 
 
@@ -73,7 +73,7 @@
   </div>
 
 
-      <footer>
+      <footer class="work_footer">
         <p>&copy; 2015 Charisse Ysabel De Torres</p>
     </footer>
 
