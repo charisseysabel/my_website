@@ -39,7 +39,7 @@
   <p>What's next?</p>
 </div>
 
-      <button id="note_link" href="#">Download my resume</button>    
+<!--      <button id="note_link" href="#">Download my resume</button>    -->
       <button id="note_link" href="contact.php">Leave a note</button>    
 
 
