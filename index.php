@@ -1,6 +1,6 @@
 <?= (file_get_contents("./templates/header.php"))?>
 
-  <div class="jumbotron">
+<div class="jumbotron">
       <div class="container">
         <h1>Hi, I'm Charisse</h1>
         <p>I'm a self-taught junior developer.</p>
@@ -24,7 +24,7 @@
 
       <div class="col-md-4">
         <a href="#">
-          <img src="../img/ecosia.jpg" alt="map" class="workImg"/>
+          <img src="../img/ecosia.png" alt="map" class="workImg"/>
           <p class="workDescription">
             <span class="project_name">Ecosia</span><br>
             Website redesign
