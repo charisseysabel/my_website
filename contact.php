@@ -1,22 +1,18 @@
 <?= (file_get_contents("./templates/header.php"))?>
 
-<div class="jumbotron work_title">
-  <div class="container">
+<div class="jumbotron">
+  <div class="container content header">
     <h1>Get in touch</h1>
-  </div>
-</div>
-
-  <div class="section">
     <p>Leave me a note at:</p>
-</div>
-
-  <div class="container">
-    <p>
-      <a href="mailto:charisse.ysabel930@gmail.com" id="email">
-        charisse.ysabel930@gmail.com
-      </a>
-    </p>
+      <div class="container content link">
+      
+        <a href="mailto:charisse.ysabel930@gmail.com" class="cta">
+          charisse.ysabel930@gmail.com
+        </a>
+      
+    </div>
   </div>
+</div>
 
 
 <?= (file_get_contents("./templates/footer.php") )?>

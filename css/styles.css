@@ -14,10 +14,11 @@ body {
   padding-left: 10px;
   padding-right: 10px;
   font-family: "Quicksand" sans-serif;
-  background: #efefef;
+  background: #fff;
   font-size: 14px;
   color: #777;
-  text-align: center;
+  text-align: left;
+  letter-spacing: 1px;
 }
 
 a, a:hover, a:active, a:visited {
@@ -33,6 +34,8 @@ h2 {
   font-size: 1.5em;
 }
 
+
+
 .featurette-divider {
   margin-top: 5%;
   border-top: 1px solid black;
@@ -42,11 +45,11 @@ h2 {
 .navbar-default {
   text-align: left;
 	background: none;
-	border-color: #efefef;
+	border-color: #fff;
 }
 
 .navbar-default .navbar-collapse, {
-	border-color: #efefef;
+	border-color: #fff;
 }
 
 #navbar ul li a {
@@ -110,6 +113,7 @@ footer {
   margin-top: 8%;
   padding: 50px;
   margin-bottom: 0;
+  text-align: center;
 }
 
 
@@ -118,11 +122,51 @@ footer {
   index
 
 */
+  .content {
+    max-width: 800px;
+    font-weight: lighter;
+  }
+
+  .header h1 {
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+    text-align: center;
+    font-size: 2em;
+    color: #F18620;
+  }
+
+  .header p {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    font-size: 1em;    
+    line-height: 40px;gr
+  }
+
+  .article p {
+    text-transform: none;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding: 0;
+  }
+
+  .article h2 {
+    text-align: center;
+  }
+
+
+  .link {
+    text-align: center;
+    margin-top: 5%;
+  }
+
+/*
   .greetings {
     font-family: "Lora", serif;
     color: #B0B0B0;
+    text-align: center;
   }
-
+*/
   .send_note {
     padding: 2%;
   }
@@ -135,18 +179,10 @@ footer {
   }
 
   .jumbotron {
+    background: #fff;
     padding: 10%;
   }
 
-  .jumbotron p {
-    font-size: 14px;
-  }
-
-  .jumbotron .container h1{
-    text-transform: uppercase;
-    font-size: 2em;
-    letter-spacing: 5px;
-  }
 
   .section {
     margin-top: 8%;
@@ -156,6 +192,11 @@ footer {
   .section p{
     text-transform: uppercase;
     letter-spacing: 2px;
+    text-align: center;
+  }
+
+  .image_hover {
+    text-align: center;
   }
 
   #brief_sum {
@@ -268,9 +309,12 @@ footer {
 
 */
 
+
+
 .work_feature {
   margin-top: 5%;
   margin-bottom: 5%;
+  text-align: left;
 }
 
 
@@ -288,7 +332,6 @@ footer {
 
 .content {
   padding-top: 20px;
-  text-align: center;
 }
 
 .content article {
@@ -318,6 +361,8 @@ h3 {
 .work_img {
   width: 100%;
   overflow: hidden;
+  padding: 0;
+  margin: 0;
 }
 
 .article_caption {
@@ -332,7 +377,7 @@ h3 {
 
 }
 
-#email {
+.cta {
   text-transform: none;
   font-family: "Lora", serif;
   font-size: 14px;
@@ -348,7 +393,7 @@ h3 {
 
   }
 
-#email:hover {
+.cta:hover {
     border: none;
     text-decoration: none;
     color: #efefef;

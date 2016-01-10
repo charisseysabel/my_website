@@ -1,9 +1,9 @@
 <?= (file_get_contents("./templates/header.php"))?>
 
 <div class="jumbotron">
-      <div class="container">
+      <div class="container content header">
         <h1>Hi, I'm Charisse</h1>
-        <p>I'm a self-taught junior developer.</p>
+        <p>self-taught junior developer.</p>
       </div>
     </div>
 
@@ -11,7 +11,7 @@
       <p>Works</p>
     </div>
 
-    <div class="container">
+    <div class="container image_hover">
       <div class="col-md-4">
         <a href="rocket.php">
           <img src="../img/rocket-thumb.jpg" alt="rocket" class="workImg"/>
@@ -47,33 +47,29 @@
       <p>Why we should work together</p>
     </div>
 
-    <div class="container">
-      <section>
+    <div class="container content">
         <p>
           Discovering the world of programming and software development literally changed my life.<br>
-          It's always evolving and there's room to improve every single day. It's been a hell of a wild ride so far,
-          but all the struggles are worth it.<br>
+          It's always evolving and there's room to improve every single day.
+          It's been a hell of a wild ride so far, but all the struggles are worth it.
           We should work together because I want to be able to share the ride with you. It'd be fun!
         </p>
-        <a href="about.php" id="learn_more">Learn more about me</a>
-      </section>
-
+        <div class="link">
+          <a href="about.php" class="cta">Learn more about me</a>
+        </div>
     </div>
 
 <div class="section">
     <p>Leave me a note at:</p>
 </div>
 
-  <div class="container">
+  <div class="container content link">
     <p>
-      <a href="mailto:charisse.ysabel930@gmail.com" id="email">
+      <a href="mailto:charisse.ysabel930@gmail.com" class="cta">
         charisse.ysabel930@gmail.com
       </a>
     </p>
   </div>
 
-    <div class="container end_note">
-      <p class="greetings">Thanks for dropping by!</p>
-    </div>
 
 <?= (file_get_contents("./templates/footer.php") )?>
