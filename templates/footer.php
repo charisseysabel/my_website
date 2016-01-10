@@ -1,6 +1,6 @@
 
-
-      <footer>
+ <footer class="work_footer">
+      <p>Thanks for dropping by!</p>
         <p>&copy; 2015 Charisse Ysabel De Torres</p>
     </footer>
 
