@@ -1,7 +1,7 @@
 <?= (file_get_contents("./templates/header.php"))?>
 
 <div class="jumbotron">
-  <div class="container content header">
+  <div class="container content header plaintext">
     <h1>Get in touch</h1>
     <p>Leave me a note at:</p>
       <div class="container content link">
