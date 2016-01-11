@@ -140,7 +140,7 @@ footer {
     text-transform: uppercase;
     letter-spacing: 8px;
     font-size: 1em;    
-    line-height: 40px;gr
+    line-height: 40px;
   }
 
   .article p {
@@ -158,6 +158,18 @@ footer {
   .link {
     text-align: center;
     margin-top: 5%;
+  }
+
+  .mock {
+    -webkit-box-shadow: 2px 2px 2px 2px;
+    -moz-box-shadow: 2px 2px 2px 2px;
+    box-shadow: 2px 2px 2px 2px;
+  }
+
+  .plaintext p{
+    letter-spacing: 1px;
+    text-transform: none;
+    line-height: 1.42857143;
   }
 
 /*
@@ -227,10 +239,13 @@ footer {
     bottom: 0;
     background: rgba(241, 134, 32, 1);
     color: #fff;
-    padding: 25%;
+    padding: 20%;
     height: 100%;
 
     opacity: 0;
+    -webkit-transition: opacity 0.5s ease-in-out;
+    -moz-transition: opacity 0.5s ease-in-out;
+    -o-transition: opacity 0.5s ease-in-out;
     transition: opacity 0.5s ease-in-out;
   }
 
@@ -287,7 +302,14 @@ footer {
     padding: 10px;
     border-radius: 2px;
 
+    -webkit-transition: background 0.5s ease-in-out;
+    -moz-transition: background 0.5s ease-in-out;
+    -o-transition: background 0.5s ease-in-out;
     transition: background 0.5s ease-in-out;
+
+    -webkit-transition: color 0.5s ease-in-out;
+    -moz-transition: color 0.5s ease-in-out;
+    -o-transition: color 0.5s ease-in-out;
     transition: color 0.5s ease-in-out;
   }
 
@@ -388,8 +410,15 @@ h3 {
   padding: 10px;
   border-radius: 2px;
 
-  transition: background 0.5s ease-in-out;
-  transition: color 0.5s ease-in-out;
+  -webkit-transition: background 0.5s ease-in-out;
+    -moz-transition: background 0.5s ease-in-out;
+    -o-transition: background 0.5s ease-in-out;
+    transition: background 0.5s ease-in-out;
+
+    -webkit-transition: color 0.5s ease-in-out;
+    -moz-transition: color 0.5s ease-in-out;
+    -o-transition: color 0.5s ease-in-out;
+    transition: color 0.5s ease-in-out;
 
   }
 

@@ -3,7 +3,7 @@
 <div class="jumbotron">
       <div class="container content header">
         <h1>Hi, I'm Charisse</h1>
-        <p>self-taught junior developer.</p>
+        <p>Self-taught junior developer.</p>
       </div>
     </div>
 
@@ -14,17 +14,17 @@
     <div class="container image_hover">
       <div class="col-md-4">
         <a href="rocket.php">
-          <img src="../img/rocket-thumb.jpg" alt="rocket" class="workImg"/>
+          <img src="../img/rocket-thumb.jpg" alt="Rocket app thumbnail" class="workImg"/>
           <p class="workDescription">
             <span class="project_name">Rocket</span><br>
-            A cashflow web application built from the ground up
+            A cashflow web application
           </p>
         </a>
       </div>
 
       <div class="col-md-4">
-        <a href="#">
-          <img src="../img/ecosia.png" alt="map" class="workImg"/>
+        <a href="ecosia.php">
+          <img src="../img/ecosia.png" alt="Ecosia logo" class="workImg"/>
           <p class="workDescription">
             <span class="project_name">Ecosia</span><br>
             Website redesign
@@ -33,11 +33,11 @@
       </div>
 
       <div class="col-md-4">
-        <a href="#">
-          <img src="../img/map.jpg" alt="map" class="workImg"/>
+        <a href="kingdom_of_thieves.php">
+          <img src="../img/kingdom_of_thieves.jpg" alt="Kingdom of Thieves cover" class="workImg"/>
           <p class="workDescription">
-            <span class="project_name">Coming soon!</span></br>
-            Future project
+            <span class="project_name">The Kingdom of Thieves</span></br>
+            Personal self-published book
           </p>
         </a>
       </div>
