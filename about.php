@@ -38,5 +38,5 @@
         <a class="cta" href="contact.php">Leave a note</a>  
   </div>
 
-
+</div>
 <?= (file_get_contents("./templates/footer.php") )?>

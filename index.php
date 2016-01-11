@@ -36,7 +36,7 @@
         <a href="kingdom_of_thieves.php">
           <img src="../img/kingdom_of_thieves.jpg" alt="Kingdom of Thieves cover" class="workImg"/>
           <p class="workDescription">
-            <span class="project_name">The Kingdom of Thieves</span></br>
+            <span class="project_name">The Kingdom of Thieves</span>
             Personal self-published book
           </p>
         </a>
