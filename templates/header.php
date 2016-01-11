@@ -44,7 +44,7 @@
           
           <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
-              <li class="hvr-underline-reveal"><a href="../portfolio.php">Portfolio</a></li>
+              <li class="hvr-underline-reveal"><a href="/">Portfolio</a></li>
               <li class="hvr-underline-reveal"><a href="../about.php">About</a></li>
               <li class="hvr-underline-reveal"><a href="http://www.underneaththehood.wordpress.com">Blog</a></li>
               <li class="hvr-underline-reveal"><a href="../contact.php">Contact</a></li>
