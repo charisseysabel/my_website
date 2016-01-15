@@ -14,7 +14,6 @@
 
   @Highlight: #F18620;
   @AccentFont: "Lora";
-  @BaseColor: #777;
 
   .Headers {
   text-transform: uppercase;
@@ -45,7 +44,7 @@
     font-family: "Quicksand" sans-serif;
     background: #fff;
     font-size: 14px;
-    color: @BaseColor;
+    color: #777;
     text-align: left;
     letter-spacing: 1px;
     text-decoration: none;
@@ -67,6 +66,10 @@
 /* -----------------------------------*/
 /* ---------->>> HEADINGS <<<-----------*/
 /* -----------------------------------*/
+
+  h1 {
+    text-transform: uppercase;
+  }
 
   h2 {
     font-family: "Lora", serif;
@@ -115,7 +118,6 @@
   margin: 0;
 }
 
-
 /* -----------------------------------*/
 /* ---------->>> INDEX <<<-----------*/
 /* -----------------------------------*/
@@ -132,22 +134,13 @@
     letter-spacing: 0.5em;
     font-size: 2em;
     color: @Highlight;
-    -webkit-transition: slide-up 1s ease-in-out;
-    -moz-transition: slide-up 1s ease-in-out;
-    -o-transition: slide-up 1s ease-in-out;
-    animation: slide-up 1s ease-in forwards;
   }
 
   .header p {
     .Headers;
-    opacity: 0;
     letter-spacing: 8px;
     font-size: 1em;    
     line-height: 40px;
-    -webkit-transition: slide-up 1s 1.5s ease-in-out;
-    -moz-transition: slide-up 1s 1.5s ease-in-out;
-    -o-transition: slide-up 1s 1.5s ease-in-out;
-    animation: slide-up 1s 1.5s ease-in forwards;
   }
 
   .article p {
@@ -277,7 +270,3 @@
       background: #F18620;
   }  
 
-@keyframes slide-up {
-  0% { opacity: 0; top: 50px; position: relative;}
-  100% { opacity: 1; top: 0; position: relative;}
-}
