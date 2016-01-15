@@ -35,10 +35,6 @@
 /* ---------->>> HEADINGS <<<-----------*/
 /* -----------------------------------*/
 
-  h1 {
-    text-transform: uppercase;
-  }
-
   h2 {
     font-family: "Lora", serif;
     font-size: 1.5em;
@@ -61,7 +57,7 @@
   }
 
   #navbar a:hover, #learn_more:hover {
-    color: @highlight;
+    color: @Highlight;
   }
 
   #learn_more {
@@ -86,7 +82,6 @@
 
   .content {
     max-width: 800px;
-    border: 1px solid black;
   }
 
   .header h1 {
@@ -95,14 +90,23 @@
     text-align: center;
     font-size: 2em;
     color: #F18620;
+    -webkit-transition: slide-up 1s ease-in-out;
+    -moz-transition: slide-up 1s ease-in-out;
+    -o-transition: slide-up 1s ease-in-out;
+    animation: slide-up 1s ease-in forwards;
   }
 
   .header p {
+    opacity: 0;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 8px;
     font-size: 1em;    
     line-height: 40px;
+    -webkit-transition: slide-up 1s 1.5s ease-in-out;
+    -moz-transition: slide-up 1s 1.5s ease-in-out;
+    -o-transition: slide-up 1s 1.5s ease-in-out;
+    animation: slide-up 1s 1.5s ease-in forwards;
   }
 
   .article p {
@@ -134,13 +138,6 @@
     line-height: 1.42857143;
   }
 
-/*
-  .greetings {
-    font-family: "Lora", serif;
-    color: #B0B0B0;
-    text-align: center;
-  }
-*/
   .send_note {
     padding: 2%;
   }
@@ -373,14 +370,14 @@ h3 {
   border-radius: 2px;
 
   -webkit-transition: background 0.5s ease-in-out;
-    -moz-transition: background 0.5s ease-in-out;
-    -o-transition: background 0.5s ease-in-out;
-    transition: background 0.5s ease-in-out;
+  -moz-transition: background 0.5s ease-in-out;
+  -o-transition: background 0.5s ease-in-out;
+  transition: background 0.5s ease-in-out;
 
-    -webkit-transition: color 0.5s ease-in-out;
-    -moz-transition: color 0.5s ease-in-out;
-    -o-transition: color 0.5s ease-in-out;
-    transition: color 0.5s ease-in-out;
+  -webkit-transition: color 0.5s ease-in-out;
+  -moz-transition: color 0.5s ease-in-out;
+  -o-transition: color 0.5s ease-in-out;
+  transition: color 0.5s ease-in-out;
 
   }
 
@@ -393,4 +390,10 @@ h3 {
 
 #email:visited {
   text-decoration: none;
+}
+
+
+@keyframes slide-up {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
 }
