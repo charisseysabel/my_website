@@ -95,11 +95,6 @@ h2 {
 /* -----------------------------------*/
 /* ---------->>> INDEX <<<-----------*/
 /* -----------------------------------*/
-.plaintext p {
-  letter-spacing: 1px;
-  text-transform: none;
-  line-height: 1.42857143;
-}
 .header h1 {
   text-transform: uppercase;
   text-align: center;
@@ -122,6 +117,11 @@ h2 {
   -moz-animation: slide-up 1s 1.5s ease-in forwards;
   -o-animation: slide-up 1s 1.5s ease-in forwards;
   animation: slide-up 1s 1.5s ease-in forwards;
+}
+.plaintext p {
+  letter-spacing: 1px;
+  text-transform: none;
+  line-height: 1.42857143;
 }
 .article p {
   text-transform: none;
