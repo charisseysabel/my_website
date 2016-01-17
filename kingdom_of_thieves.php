@@ -16,18 +16,22 @@
       The story, however, is not finished yet.
     </p>    
 
-      <img src="../img/kingdom_of_thieves.jpg" class="work_img" alt="Kingdom of Thieves cover"/>
+      <img src="../img/kingdom_of_thieves/kingdom_of_thieves.jpg" class="work_img" alt="Kingdom of Thieves cover"/>
 
-      <p>Illustrating the cover of the book was a fun and challenging experience. By adding a mysterious character to the intruiging title, the book can attract attention to readers. Even my pen name, J. Drowseth, has a little backstory; it was the name of my very first novel character years before the Kingdom of Thieves was written. I tend to jumble plain English words when making up a name. Drowseth came from an adjective, "the sword".
+      <p>Illustrating the cover of the book was a fun and challenging experience.
+        By adding a mysterious character to the intruiging title, the book can attract attention to readers.
+        Even my pen name, J. Drowseth, has a little backstory; it was the name of my very first novel character years before the Kingdom of Thieves was written.
+        I tend to jumble plain English words when making up a name. Drowseth came from the words, "the sword".
       </p>
 
-      <img src="../img/map.jpg" class="work_img" alt="Kingdom of Thieves map"/>
+      <img src="../img/kingdom_of_thieves/map.jpg" class="work_img" alt="Kingdom of Thieves map"/>
 
       <p>
-        The map was an actual drawing that was scanned and cleaned up before inserting in the book. Adding it gives more life and keeps the readers from getting lost in a fantasy world. 
+        The map was an actual drawing that was scanned and cleaned up before inserting in the book.
+        Adding it gives more life and keeps the readers from getting lost in a fantasy world. 
       </p>
 
-      <img src="../img/kot_chapter.jpg" class="work_img" alt="Kingdom of Thieves book chapter"/>
+      <img src="../img/kingdom_of_thieves/kot_chapter.jpg" class="work_img" alt="Kingdom of Thieves book chapter"/>
 
       <p>Writing fifty thousand words in a month eliminates the tempting task of going back and forth to edit and perfect the grammar, but its always nice to open the book and begin the journey again.</p>
 </div>
