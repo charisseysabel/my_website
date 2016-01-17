@@ -3,9 +3,9 @@
 <div class="jumbotron">
   <div class="container content header plaintext">
     <h1>About</h1>
-    <p>Hi, I'm Charisse.</p>
+    <p>Hello! I'm Charisse.</p>
     <p>I'm a junior developer with a graphic design background.<br>
-    Occassional writer, artist and forever lover of dessert.</p>
+    Occassional writer, artist and forever lover of dogs.</p>
   </div>
 </div>
 
@@ -24,19 +24,20 @@
     and move to the boot-shaped country, where I am right now. One day, I saw a graphic design course in town.
     I signed up and was admitted, even if I barely knew Italian that time. And for the next two years, graphic design
     basically took over my life. It still does; its something that would stick with me forever.<br>
-    Programming came shortly after that. I enjoyed every bit of time I spent learning how to code.
-    I've come a long way by teaching myself. It's a wild ride and its awesome.<br>
-    I like being busy. When I'm not on the computer, you can probably find me breaking the routine, trying something new.
+    Programming came shortly after when I wanted to try building my own porfolio website. I enjoyed every bit of time I spent learning how to code.
+    Soon after, I've been spending more time reading technical books online and coding tutorials and I thought, programming is a lot deeper than I expected;
+    I can actually solve problems with it! And that's why I like it.
   </p>
 
   <div class="section">
-    <p>What's next?</p>
+    <p>Let's be friends! Shoot me a mail:</p>
   </div>
 
-  <div class="link">
-  <!--  <a class="cta" href="#">Download my resume</a>    -->
-        <a class="cta" href="contact.php">Leave a note</a>  
-  </div>
+    <p class="link">
+      <a href="mailto:charisse.ysabel930@gmail.com" class="cta">
+        charisse.ysabel930@gmail.com
+      </a>
+    </p>
 
 </div>
 <?= (file_get_contents("./templates/footer.php") )?>
