@@ -22,6 +22,17 @@
         </a>
       </div>
 
+      <div class="container image_hover">
+      <div class="col-md-4">
+        <a href="words.php">
+          <img src="../img/words/wordsProject.jpg" alt="Words Project logo" class="workImg"/>
+          <p class="workDescription">
+            <span class="project_name">Words</span><br>
+            A visual interpretation of rare English words
+          </p>
+        </a>
+      </div>
+
       <div class="col-md-4">
         <a href="ecosia.php">
           <img src="../img/ecosia/ecosia.png" alt="Ecosia logo" class="workImg"/>
