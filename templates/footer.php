@@ -1,14 +1,12 @@
+            <footer>
+              <p>Thanks for dropping by!<br>
+                &copy; 2016 Charisse Ysabel De Torres</p>
+            </footer>
+        </div><!-- /container -->
+    </main><!-- /main -->
 
- <footer class="work_footer">
-      <p>Thanks for dropping by!</p>
-        <p>&copy; 2015 Charisse Ysabel De Torres</p>
-    </footer>
 
-<!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="../scripts/bootstrap.min.js"></script>
-
+    <script src="../scripts/jquery-2.1.1.js"></script>
+    <script src="../scripts/scripts.js"></script>
 </body>
 </html>

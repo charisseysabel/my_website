@@ -1,18 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="">
-    <meta name="author" content="">
 
     <!-- fonts -->
     <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Lora:400italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>
 
-    <link rel="stylesheet" href="../css/bootstrap.min.css"/>
     <link rel="stylesheet" type="text/css" href="../css/styles.css"/>
 
     <!-- favicons -->
@@ -45,32 +41,40 @@
 
   <title>Charisse Ysabel De Torres | Portfolio</title>
 </head>
-
-  <body>
-    <div class="container">
-
-    <!-- Static navbar -->
-      <nav class="navbar navbar-default">
-        <div class="container-fluid">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-              <span class="sr-only">Navigate</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a href="../index.php"><img src="../img/favicon/cyLogo.png" alt="Charisse's logo" width="50" height="50" id="cyLogo"/></a>
-          </div>
-          
-          <div id="navbar" class="navbar-collapse collapse">
-            <ul class="nav navbar-nav navbar-right">
-              <li class="hvr-underline-reveal"><a href="/">Portfolio</a></li>
-              <li class="hvr-underline-reveal"><a href="../about.php">About</a></li>
-              <li class="hvr-underline-reveal"><a href="http://www.underneaththehood.wordpress.com">Blog</a></li>
-              <li class="hvr-underline-reveal"><a href="../contact.php">Contact</a></li>
-            </ul>
-          </div><!--/.nav-collapse -->
-
-        </div><!--/.container-fluid -->
-      </nav>
-    </div>
+<body>
+    <div class="hidden-nav">
+        <div class="hidden-nav-wrapper">
+            <div class="left-col">
+                <h3>Navigation</h3>
+                <ul>
+                    <li><a href="/">Portfolio</a></li>
+                    <li><a href="../about.php">About</a></li>
+                    <li><a href="http://www.underneaththehood.wordpress.com">Blog</a></li>
+                </ul>
+            </div><!-- /left-col -->
+            <div class="right-col">
+                <h3>Get in Touch</h3>
+                    <ul>
+                        <li>
+                            <a href="mailto:charisse.ysabel930@gmail.com">
+                                charisse.ysabel930@gmail.com
+                            </a>
+                        </li>
+                        <li><a href="https://github.com/charissysabel">GitHub</a></li>
+                        <li><a href="#">Codepen</a></li>
+                        <li><a href="#">Twitter</a></li>
+                    </ul>
+            </div><!-- /right-col -->
+        </div><!-- /hidden-nav-wrapper -->
+        <div class="close-nav">
+            <span class="close-nav-lines"></span>
+        </div><!-- /close-nav -->
+    </div><!-- /hidden-nav -->
+    <main>
+        <div class="container">
+            <nav class="fluid nav-container">
+                <a href="../index.php"><img src="../img/favicon/cyLogo.png" alt="Charisse's logo" id="cyLogo"/></a>
+                <div class="nav-icon">
+                    <span class="nav-lines"></span>
+                </div>
+            </nav>
