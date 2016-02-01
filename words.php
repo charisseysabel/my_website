@@ -1,18 +1,12 @@
 <?= (file_get_contents("./templates/header.php"))?>
-
-<div class="jumbotron">
-  <div class="container content header">
+<div class="fluid header-container">
     <h1>Words</h1>
-    <p>Front end development</p>
-  </div>
+    <p>Front end snippets</p>
 </div>
 
-<div class="container content article">
-  <h2>""</h2>
-    <p>
-    </p>
-    
-
+<div class="fluid content-container">
+    <section class="text">
+    </section>
 </div>
 
 <?= (file_get_contents("./templates/footer.php") )?>
