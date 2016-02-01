@@ -5,9 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- fonts -->
-    <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
 
     <link rel="stylesheet" type="text/css" href="../css/styles.css"/>
 
@@ -49,20 +47,20 @@
                 <ul>
                     <li><a href="/">Portfolio</a></li>
                     <li><a href="../about.php">About</a></li>
+                    <li><a href="#">Ideas</a></li>
                     <li><a href="http://www.underneaththehood.wordpress.com">Blog</a></li>
                 </ul>
             </div><!-- /left-col -->
             <div class="right-col">
-                <h3>Get in Touch</h3>
-                    <ul>
-                        <li>
-                            <a href="mailto:charisse.ysabel930@gmail.com">
-                                charisse.ysabel930@gmail.com
-                            </a>
-                        </li>
-                        <li><a href="https://github.com/charissysabel">GitHub</a></li>
-                        <li><a href="#">Codepen</a></li>
-                        <li><a href="#">Twitter</a></li>
+                <ul>
+                    <li>
+                        <a href="mailto:charisse.ysabel930@gmail.com">
+                            charisse.ysabel930@gmail.com
+                        </a>
+                    </li>
+                    <li><a href="https://github.com/charissysabel">GitHub: /charisseysabel</a></li>
+                    <li><a href="#">Codepen: /charisseysabel</a></li>
+                    <li><a href="#">Twitter: /charisseysabel</a></li>
                     </ul>
             </div><!-- /right-col -->
         </div><!-- /hidden-nav-wrapper -->
