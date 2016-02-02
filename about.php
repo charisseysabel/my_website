@@ -2,7 +2,7 @@
 <div class="fluid header-container">
     <h1>About</h1>
     <p>Hello! I'm Charisse.</p>
-    <p>I'm a junior developer with a graphic design background.<br>
+    <p>I'm a junior developer and designer.<br>
     Occassional writer, artist and forever lover of dogs.</p>
 </div>
 
@@ -11,7 +11,7 @@
     <img src="../img/charisse.jpg" alt="Me taking a picture of me" class="workImg"/>
   </div>
 
-  <section class="section">
+  <section class="chapter">
       <p>A really brief history</p>
   </section>
 
@@ -21,13 +21,19 @@
     I basically had my mind set on becoming a chef. I do enjoy cooking, afterall.<br>
     Fast forward a few years later, we left the bustling city of Manila to travel halfway across the world
     and move to the boot-shaped country, where I am right now. One day, I saw a graphic design course in town.
-    I signed up and was admitted, even if I barely knew Italian that time. And for the next two years, graphic design
-    basically took over my life. It still does; its something that would stick with me forever.<br>
-    Programming came shortly after when I wanted to try building my own porfolio website. I enjoyed every bit of time I spent learning how to code.
-    Soon after, I've been spending more time reading technical books online and coding tutorials and I thought, programming is a lot deeper than I expected;
-    I can actually solve problems with it! And that's why I like it.
+    I studied and then discovered programming in an attempt to build my portfolio website from scratch.
   </section>
 
+  <section class="chapter">
+    <p>Me &amp; Programming</p>
+  </section>
+
+  <section class="text">
+    Building a program that solves an actual problem is what really made me want to become a better developer.
+    I like to build things that would make our lives simpler. And if possible, something that would benefit nature as well.
+    Programming opened the doors for me to be able to make a difference. It's a forever learning process,
+    and I am far from being the best. But its challenging and rewarding and that pretty much all that matters to me.
+  </section>
 
   <div class="section">
     <p>Let's be friends! Shoot me a mail:</p>
@@ -35,7 +41,7 @@
 
   <div class="content-links">
     <p class="link">
-      <a href="mailto:charisse.ysabel930@gmail.com" class="cta">
+      <a href="mailto:charisse.ysabel930@gmail.com">
         charisse.ysabel930@gmail.com
       </a>
     </p>
