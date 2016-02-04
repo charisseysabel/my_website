@@ -4,8 +4,8 @@
                 <p>Junior developer &amp; designer</p>
             </div><!-- /header-container -->
 
-                <div class="grid-container">
-                    <div class="screenshot grid">
+                <div class="index-grid">
+                    <div class="grid">
                         <a href="rocket.php">
                           <img src="../img/rocket/rocket-thumb.jpg" alt="Rocket app thumbnail" class="workImg"/>
                           <p class="workDescription">
@@ -15,7 +15,7 @@
                         </a>
                     </div>
 
-                    <div class="screenshot grid">
+                    <div class="grid">
                         <a href="kingdom_of_thieves.php">
                           <img src="../img/kingdom_of_thieves/kingdom_of_thieves.jpg" alt="Kingdom of Thieves" class="workImg"/>
                           <p class="workDescription">
@@ -25,7 +25,7 @@
                         </a>
                     </div>
 
-                    <div class="screenshot grid">
+                    <div class="grid">
                         <a href="oppia.php">
                              <img src="../img/oppia/oppiaLogo.png" alt="Oppia logo" class="workImg"/>
                             <p class="workDescription">
@@ -35,7 +35,7 @@
                         </a>
                     </div>
 
-                    <div class="screenshot grid">
+                    <div class="grid">
                         <a href="words.php">
                           <img src="../img/words/wordsProject.jpg" alt="Words Project logo" class="workImg"/>
                           <p class="workDescription">
@@ -46,7 +46,7 @@
                     </div>
 
 
-                    <div class="screenshot grid">
+                    <div class="grid">
                         <a href="beast.php">
                           <img src="../img/beast/beast.jpg" alt="Rezvani Beast brochure" class="workImg"/>
                           <p class="workDescription">
