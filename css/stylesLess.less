@@ -148,9 +148,7 @@ main {
     margin-right: auto;
     margin-left: auto;
   }
-  .grid {
-    width: 50%;
-  }
+
 }
 
 @media only screen and (max-width: 800px) {
@@ -412,11 +410,6 @@ main {
   height: 8%;
 }
 
-.grid-container {
-  display: flex;
-  flex-wrap: wrap; 
-}
-
 .screenshot {
   position: relative;
 
@@ -425,9 +418,33 @@ main {
   }
 }
 
+.index-grid {
+  display: flex;
+  flex-wrap: wrap;
+}
 
+.grid {
+  position: relative;
+}
 
+.grid-container img {
+  width: 100%;
+}
 
+@media only screen and (min-width: 900px) {
+  .grid-container img {
+    width: 49.7%;
+  }
+
+  .grid {
+    width: 440px;
+    margin-right: 5px;
+  }
+}
+
+/* -----------------------------------*/
+/* ---------->>> HOVER <<<-----------*/
+/* -----------------------------------*/
 
 .project_name {
   font-size: 2em;
@@ -439,11 +456,11 @@ main {
   top: 0;
   left: 0;
   right: 0;
-  bottom: 0;
+  bottom: 5px;
   margin: 0;
   background: @highlight;
   color: #fff;
-  padding: 10%;
+  padding: 20% 10%;
   opacity: 0;
   overflow: hidden;
   -webkit-transition: opacity 0.5s ease-in-out;
@@ -475,7 +492,6 @@ main {
 }
 
 .chapter {
-  text-transform: uppercase;
   margin: 50px;
 }
 
