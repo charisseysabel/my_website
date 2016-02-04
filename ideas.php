@@ -9,10 +9,12 @@
   </section>
 
   <section class="text">
-    The idea for this application came from my personal desire to live a zero waste life.
-    But just like every other life-changing decision, to start is hard. So I'd like to build this application
-    to simplify the transition, our lives and ultimately, to help the environment. I want to make this app
-    for myself and for those willing to make a change. 
+    <p>
+      The idea for this application came from my personal desire to live a zero waste life.
+      But just like every other life-changing decision, to start is hard and maintaining a way of life different from others is harder.
+      So I'd like to build this application to simplify our lives, the transition, and ultimately, to help the environment.
+      I want to make this app for myself and for those willing to make a change. 
+    </p>
   </section>
 
 <?= (file_get_contents("./templates/footer.php") )?>

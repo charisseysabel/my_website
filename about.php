@@ -16,12 +16,14 @@
   </section>
 
   <section class="text">
-    Growing up, I never really knew what I wanted to do with my life.
-    My first ambition was to become a ballerina (no joke), then a nurse, then a chef.
-    I basically had my mind set on becoming a chef. I do enjoy cooking, afterall.<br>
-    Fast forward a few years later, we left the bustling city of Manila to travel halfway across the world
-    and move to the boot-shaped country, where I am right now. One day, I saw a graphic design course in town.
-    I studied and then discovered programming in an attempt to build my portfolio website from scratch.
+    <p>
+        Growing up, I never really knew what I wanted to do with my life.
+        My first ambition was to become a ballerina (no joke), then a nurse, then a chef.
+        I basically had my mind set on becoming a chef. I do enjoy cooking, afterall.<br>
+        Fast forward a few years later, we left the bustling city of Manila to travel halfway across the world
+        and move to the boot-shaped country, where I am right now. One day, I saw a graphic design course in town.
+        I studied and then discovered programming in an attempt to build my portfolio website from scratch.
+    </p>
   </section>
 
   <section class="chapter">
@@ -29,13 +31,15 @@
   </section>
 
   <section class="text">
-    Building a program that solves an actual problem is what really made me want to become a better developer.
-    I like to build things that would make our lives simpler. And if possible, something that would benefit nature as well.
-    Programming opened the doors for me to be able to make a difference. It's a forever learning process,
-    and I am far from being the best. But its challenging and rewarding and that pretty much all that matters to me.
+    <p>
+        Building a program that solves an actual problem is what really made me want to become a better developer.
+        I like to build things that would make our lives simpler. And if possible, something that would benefit nature as well.
+        Programming opened the doors for me to be able to make a difference. It's a forever learning process,
+        and I am far from being the best. But its challenging and rewarding and that pretty much all that matters to me.
+    </p>
   </section>
 
-  <div class="section">
+  <div class="chapter">
     <p>Let's be friends! Shoot me a mail:</p>
   </div>
 

@@ -6,8 +6,10 @@
 
 <div class="fluid content-container">
     <section class="text">
-      A promotional material for the University of Urbino in Italy in collaboration with
-      studio Kaleidon and artist Tullio Pericoli.
+    	<p>
+	      A promotional material for the University of Urbino in Italy in collaboration with
+	      studio Kaleidon and artist Tullio Pericoli.
+    	</p>
     </section>
     
     <div class="screenshot">

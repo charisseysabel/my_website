@@ -6,6 +6,11 @@
 
 <div class="fluid content-container">
     <section class="text">
+    	<p>
+    		Words is an ongoing personal project that aims to explain the meaning of rare English words
+    		through web graphics and animation. By trying different techniques, I can improve my front end
+    		skills and learn new words as well!
+    	</p>
     </section>
 </div>
 
