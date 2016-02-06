@@ -47,7 +47,7 @@
                 <ul>
                     <li><a href="/">Portfolio</a></li>
                     <li><a href="../about.php">About</a></li>
-                    <li><a href="#">Ideas</a></li>
+                    <li><a href="../ideas.php">Ideas</a></li>
                     <li><a href="http://www.underneaththehood.wordpress.com">Blog</a></li>
                 </ul>
             </div><!-- /left-col -->
@@ -59,8 +59,8 @@
                         </a>
                     </li>
                     <li><a href="https://github.com/charisseysabel">GitHub: /charisseysabel</a></li>
-                    <li><a href="#">Codepen: /charisseysabel</a></li>
-                    <li><a href="#">Twitter: /charisseysabel</a></li>
+                    <li><a href="http://codepen.io/charisseysabel/">Codepen: charisseysabel</a></li>
+                    <li><a href="https://twitter.com/charisseysabel">Twitter: charisseysabel</a></li>
                     </ul>
             </div><!-- /right-col -->
         </div><!-- /hidden-nav-wrapper -->
