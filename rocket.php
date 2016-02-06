@@ -27,7 +27,7 @@
     </section>
 
     <div class="screenshot">
-      <img src="../img/Rocket/report.png" class="work_img" alt="Rocket report page"/>
+      <img src="../img/rocket/report.png" class="work_img" alt="Rocket report page"/>
     </div>
 
     <section class="text">
