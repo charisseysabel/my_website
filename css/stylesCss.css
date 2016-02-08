@@ -122,11 +122,6 @@ main {
     font-size: 100%;
   }
 }
-@media only screen and (max-width: 400px) {
-  body {
-    font-size: 80%;
-  }
-}
 /* -----------------------------------*/
 /* ---------->>> NAV <<<-----------*/
 /* -----------------------------------*/
@@ -366,6 +361,7 @@ main {
 }
 .screenshot img {
   width: 100%;
+  top: 0;
 }
 .index-grid {
   display: flex;
@@ -380,6 +376,8 @@ main {
 @media only screen and (min-width: 900px) {
   .grid-container img {
     width: 49.7%;
+    vertical-align: top;
+    margin-top: 5px;
   }
   .grid {
     width: 440px;
