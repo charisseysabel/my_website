@@ -24,16 +24,7 @@
                           </p>
                         </a>
                     </div>
-
-                    <div class="grid">
-                        <a href="oppia.php">
-                             <img src="../img/oppia/oppiaLogo.png" alt="Oppia logo" class="workImg"/>
-                            <p class="workDescription">
-                            <span class="project_name">Oppia</span><br>
-                            Open source contribution
-                            </p>
-                        </a>
-                    </div>
+                    
 
                     <div class="grid">
                         <a href="words.php">
@@ -45,6 +36,15 @@
                         </a>
                     </div>
 
+                    <div class="grid">
+                        <a href="oppia.php">
+                             <img src="../img/oppia/oppiaLogo.png" alt="Oppia logo" class="workImg"/>
+                            <p class="workDescription">
+                            <span class="project_name">Oppia</span><br>
+                            Open source contributions
+                            </p>
+                        </a>
+                    </div>
 
                     <div class="grid">
                         <a href="beast.php">
