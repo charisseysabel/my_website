@@ -17,27 +17,54 @@
 
   <section class="text">
     <p>
-        Growing up, I never really knew what I wanted to do with my life.
-        My first ambition was to become a ballerina (no joke), then a nurse, then a chef.
-        I basically had my mind set on becoming a chef. I do enjoy cooking, afterall.<br>
-        Fast forward a few years later, we left the bustling city of Manila to travel halfway across the world
-        and move to the boot-shaped country, where I am right now. One day, I saw a graphic design course in town.
-        I studied and then discovered programming in an attempt to build my portfolio website from scratch.
+        I’m one of those people who has some difficulty figuring out what to do with my life.
+        I came from wanting to be a ballerina, a nurse, and finally a chef. I also liked drawing,
+        but I thought its an impractical career until I discovered graphic design.
+        I attended a course for 2 years, interned and got some part-time jobs;
+        I was pretty much set on becoming a designer by then. Until one day,
+        I decided I want to learn web programming to build my portfolio website from scratch.
+        Since then, I’ve been spending more time trying to become a better developer than a designer.
+        I still love graphic design and most of what I learned is still applicable and extremely helpful in this new adventure that I’m on, which is great!
     </p>
   </section>
 
   <section class="chapter">
-    <p>Me &amp; Programming</p>
+    <p>How I Work</p>
   </section>
 
   <section class="text">
     <p>
-        Building a program that solves an actual problem is what really made me want to become a better developer.
-        I like to build things that would make our lives simpler. And if possible, something that would benefit nature as well.
-        Programming opened the doors for me to be able to make a difference. It's a forever learning process,
-        and I am far from being the best. But its challenging and rewarding and that pretty much all that matters to me.
+      Striving to live a simple life in this modern world reflects on the work that I do and
+      I believe that simplicity can make a more long-lasting impact.
+      My instatiable thirst to learn allows me to be flexible and I am always looking for ways to improve.
     </p>
   </section>
+
+  <section class="chapter">
+    <p>Current Skills</p>
+  </section>
+
+  <div class="skills-container">
+    <div class="skills-grid">
+        <p>Web Development</p>
+        <ul>
+          <li>HTML</li>
+          <li>CSS / LESS</li>
+          <li>Javascript</li>
+          <li>SQL</li>
+          <li>PHP</li>
+          <li>Python</li>
+        </ul>
+    </div>
+    <div class="skills-grid">
+        <p>Design</p>
+        <ul>
+          <li>Responsive Web Design</li>
+          <li>Print</li>
+          <li>Illustration</li>
+        </ul>
+    </div>
+  </div>
 
   <div class="chapter">
     <p>Let's be friends! Shoot me a mail:</p>
