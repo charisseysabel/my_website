@@ -345,10 +345,27 @@ main {
     position: relative;
   }
 }
-.text {
+.text, .skills-container {
   width: 85%;
+}
+
+.text {  
   margin: 50px auto 50px auto;
 }
+
+.skills-container {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.skills-container .skills-grid p {
+  text-transform: uppercase;
+}
+
+.skills-container .skills-grid {
+  margin-top: 50px;  
+}
+
 /* -----------------------------------*/
 /* ---------->>> IMAGES / GRID <<<-----------*/
 /* -----------------------------------*/
@@ -383,6 +400,15 @@ main {
     width: 440px;
     margin-right: 5px;
   }
+
+  .skills-container .skills-grid {
+  display: inline-block;
+  vertical-align: top;
+  width: calc(99% / 2);
+  text-align: center;
+  margin-top: 0;
+}
+
 }
 /* -----------------------------------*/
 /* ---------->>> HOVER <<<-----------*/
