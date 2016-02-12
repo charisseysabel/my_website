@@ -58,6 +58,7 @@
                             charisse.ysabel930@gmail.com
                         </a>
                     </li>
+                    <li><a href="https://linkedin.com/in/charissedetorres">LinkedIn: /in/charissedetorres</a></li>
                     <li><a href="https://github.com/charisseysabel">GitHub: /charisseysabel</a></li>
                     <li><a href="http://codepen.io/charisseysabel/">Codepen: charisseysabel</a></li>
                     <li><a href="https://twitter.com/charisseysabel">Twitter: charisseysabel</a></li>
