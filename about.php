@@ -40,32 +40,6 @@
     </p>
   </section>
 
-  <section class="chapter">
-    <p>Current Skills</p>
-  </section>
-
-  <div class="skills-container">
-    <div class="skills-grid">
-        <p>Web Development</p>
-        <ul>
-          <li>HTML</li>
-          <li>CSS / LESS</li>
-          <li>Javascript</li>
-          <li>SQL</li>
-          <li>PHP</li>
-          <li>Python</li>
-        </ul>
-    </div>
-    <div class="skills-grid">
-        <p>Design</p>
-        <ul>
-          <li>Responsive Web Design</li>
-          <li>Print</li>
-          <li>Illustration</li>
-        </ul>
-    </div>
-  </div>
-
   <div class="chapter">
     <p>Let's be friends! Shoot me a mail:</p>
   </div>
