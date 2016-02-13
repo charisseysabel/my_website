@@ -8,5 +8,6 @@
 
     <script src="../scripts/jquery-2.1.1.js"></script>
     <script src="../scripts/scripts.js"></script>
+    <noscript>This website requires Javascript.</noscript>
 </body>
 </html>
