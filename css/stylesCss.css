@@ -457,6 +457,8 @@ main {
 }
 .chapter {
   margin: 50px;
+  color: #777;
+  text-transform: none;
 }
 .content-links .link {
   border: 1px solid #F18620;

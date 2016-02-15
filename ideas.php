@@ -4,9 +4,9 @@
     <p>Future projects</p>
 </div>
 
-<section class="chapter">
+  <h3 class="chapter">
       <p>Simplify</p>
-  </section>
+  </h3>
 
   <section class="text">
     <p>
@@ -14,6 +14,16 @@
       But just like every other life-changing decision, to start is hard and maintaining a way of life different from others is harder.
       So I'd like to build this application to simplify our lives, the transition, and ultimately, to help the environment.
       I want to make this app for myself and for those willing to make a change. 
+    </p>
+  </section>
+
+  <h3 class="chapter">
+      <p>Novel-writing App</p>
+  </h3>
+
+  <section class="text">
+    <p>
+      A web application for writers. 
     </p>
   </section>
 

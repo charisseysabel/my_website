@@ -11,9 +11,9 @@
     <img src="../img/charisse.jpg" alt="Me taking a picture of me" class="workImg"/>
   </div>
 
-  <section class="chapter">
+  <h3 class="chapter">
       <p>A really brief history</p>
-  </section>
+  </h3>
 
   <section class="text">
     <p>
@@ -28,21 +28,21 @@
     </p>
   </section>
 
-  <section class="chapter">
+  <h3 class="chapter">
     <p>How I Work</p>
-  </section>
+  </h3>
 
   <section class="text">
     <p>
       Striving to live a simple life in this modern world reflects on the work that I do and
       I believe that simplicity can make a more long-lasting impact.
-      My instatiable thirst to learn allows me to be flexible and I am always looking for ways to improve.
+      My curiosity and willingness to learn allows me to be flexible and I am always looking for ways to improve.
     </p>
   </section>
 
-  <div class="chapter">
+  <h3 class="chapter">
     <p>Let's be friends! Shoot me a mail:</p>
-  </div>
+  </h3>
 
   <div class="content-links">
     <p class="link">
