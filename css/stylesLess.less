@@ -303,6 +303,15 @@ main {
 
 .right-col {
   margin-top: 50px;
+
+  ul li:nth-child(n+2) {
+    display: inline;
+    padding-right: 50px;
+  }
+
+  ul li:last-child {
+    padding-right: 0;
+  }
 }
 
 @media screen and (min-width: 700px) {
@@ -489,6 +498,8 @@ main {
 
 .chapter {
   margin: 50px;
+  color: #777;
+  text-transform: none;
 }
 
 .content-links {

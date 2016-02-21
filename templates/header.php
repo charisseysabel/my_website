@@ -7,11 +7,11 @@
     <meta name="description" content="Charisse Ysabel De Torres is a junior web developer and graphic designer.
         This is her place on the web.">
     <meta name="keywords" content="Web Developer, Front End Developer, Web designer, Graphic designer, Junior developer,
-    Web developer portfolio, Design portfolio">
+    Web developer portfolio, Design portfolio, Charisse Ysabel, Charisse Ysabel De Torres">
     <meta name="author" content="Charisse Ysabel De Torres"> 
 
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="../css/styles.css"/>
 
     <!-- favicons -->
@@ -63,10 +63,10 @@
                             charisse.ysabel930@gmail.com
                         </a>
                     </li>
-                    <li><a href="https://linkedin.com/in/charissedetorres">LinkedIn: /in/charissedetorres</a></li>
-                    <li><a href="https://github.com/charisseysabel">GitHub: /charisseysabel</a></li>
-                    <li><a href="http://codepen.io/charisseysabel/">Codepen: charisseysabel</a></li>
-                    <li><a href="https://twitter.com/charisseysabel">Twitter: charisseysabel</a></li>
+                    <li><a href="https://linkedin.com/in/charissedetorres"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="https://github.com/charisseysabel"><i class="fa fa-github-alt"></i></a></li>
+                    <li><a href="http://codepen.io/charisseysabel/"><i class="fa fa-codepen"></a></li>
+                    <li><a href="https://twitter.com/charisseysabel"><i class="fa fa-twitter"></a></li>
                     </ul>
             </div><!-- /right-col -->
         </div><!-- /hidden-nav-wrapper -->

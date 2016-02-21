@@ -265,6 +265,13 @@ main {
 .right-col {
   margin-top: 50px;
 }
+.right-col ul li:nth-child(n+2) {
+  display: inline;
+  padding-right: 50px;
+}
+.right-col ul li:last-child {
+  padding-right: 0;
+}
 @media screen and (min-width: 700px) {
   .left-col,
   .right-col {
@@ -345,27 +352,10 @@ main {
     position: relative;
   }
 }
-.text, .skills-container {
+.text {
   width: 85%;
-}
-
-.text {  
   margin: 50px auto 50px auto;
 }
-
-.skills-container {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.skills-container .skills-grid p {
-  text-transform: uppercase;
-}
-
-.skills-container .skills-grid {
-  margin-top: 50px;  
-}
-
 /* -----------------------------------*/
 /* ---------->>> IMAGES / GRID <<<-----------*/
 /* -----------------------------------*/
@@ -378,7 +368,6 @@ main {
 }
 .screenshot img {
   width: 100%;
-  top: 0;
 }
 .index-grid {
   display: flex;
@@ -400,15 +389,6 @@ main {
     width: 440px;
     margin-right: 5px;
   }
-
-  .skills-container .skills-grid {
-  display: inline-block;
-  vertical-align: top;
-  width: calc(99% / 2);
-  text-align: center;
-  margin-top: 0;
-}
-
 }
 /* -----------------------------------*/
 /* ---------->>> HOVER <<<-----------*/
