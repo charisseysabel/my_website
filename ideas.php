@@ -4,27 +4,20 @@
     <p>Future projects</p>
 </div>
 
-  <h3 class="chapter">
-      <p>Simplify</p>
-  </h3>
-
-  <section class="text">
-    <p>
+<section>
+  <h3 class="chapter">Simplify</h3>
+    <p class="text">
       The idea for this application came from my personal desire to live a zero waste life.
       But just like every other life-changing decision, to start is hard and maintaining a way of life different from others is harder.
       So I'd like to build this application to simplify our lives, the transition, and ultimately, to help the environment.
       I want to make this app for myself and for those willing to make a change. 
     </p>
-  </section>
-
-  <h3 class="chapter">
-      <p>Novel-writing App</p>
-  </h3>
-
-  <section class="text">
-    <p>
+</section>
+<section>
+  <h3 class="chapter">Novel-writing App</h3>
+    <p class="text">
       A web application for writers. 
     </p>
-  </section>
+</section>
 
 <?= (file_get_contents("./templates/footer.php") )?>
