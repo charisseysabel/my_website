@@ -49,7 +49,7 @@ body, html {
   overflow-y:hidden;
   color: @baseColor;
   font-weight: 300;
-  font-size: 1em;
+  font-size: 16px;
   padding: 0;
   margin: 0;
 }
@@ -339,14 +339,14 @@ main {
 
   h1 {
     letter-spacing: 5px;
+    font-size: 2em;
   }
-
+ 
   h1, p {
     margin: 0;
     .Animations(@keyFrameName: slide-up, @numSecs: 1s,
             @timing: ease-in, @afterwards: forwards);    
   }
-
 }
 
 @keyframes slide-up {
@@ -413,11 +413,16 @@ main {
   height: 8%;
 }
 
+.img-with-white-bg {
+    box-shadow: 0 0 10px #c4c4c4;
+}
+
 .screenshot {
-  position: relative;
+    margin: 0;
+    position: relative;
 
   img {
-  width: 100%;    
+      width: 100%; 
   }
 }
 
@@ -497,9 +502,12 @@ main {
 }
 
 .chapter {
-  margin: 50px;
   color: #777;
   text-transform: none;
+  
+  p {
+    text-align: left;   
+  }
 }
 
 .content-links {
