@@ -65,8 +65,8 @@
                     </li>
                     <li><a href="https://linkedin.com/in/charissedetorres"><i class="fa fa-linkedin"></i></a></li>
                     <li><a href="https://github.com/charisseysabel"><i class="fa fa-github-alt"></i></a></li>
-                    <li><a href="http://codepen.io/charisseysabel/"><i class="fa fa-codepen"></a></li>
-                    <li><a href="https://twitter.com/charisseysabel"><i class="fa fa-twitter"></a></li>
+                    <li><a href="http://codepen.io/charisseysabel/"><i class="fa fa-codepen"></i></a></li>
+                    <li><a href="https://twitter.com/charisseysabel"><i class="fa fa-twitter"></i></a></li>
                     </ul>
             </div><!-- /right-col -->
         </div><!-- /hidden-nav-wrapper -->

@@ -5,9 +5,7 @@
         </div><!-- /container -->
     </main><!-- /main -->
 
-
-    <script src="../scripts/jquery-2.1.1.js"></script>
-    <script src="../scripts/scripts.js"></script>
+    <script src="../scripts/production.min.js"></script>
     <noscript>This website requires Javascript.</noscript>
 </body>
 </html>
