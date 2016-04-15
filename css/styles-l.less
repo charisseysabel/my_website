@@ -2,7 +2,7 @@
 ===================================
 
   styles.css
-  styles for Charisse website
+  charisseysabel.com
 
 ===================================
 */
@@ -13,11 +13,12 @@
 /* -----------------------------------*/
 
   @Highlight: #F18620;
-  @AccentFont: "Lora";
+  @BaseColor: #777;
+  @AccentFont: "Lora", serif;
 
   .Headers {
-  text-transform: uppercase;
-  text-align: center;
+    text-transform: uppercase;
+    text-align: center;
   }
 
   .Mock {
@@ -31,23 +32,20 @@
     -moz-transition: background 0.5s ease-in-out;
     -o-transition: background 0.5s ease-in-out;
     transition: background 0.5s ease-in-out;
-
     -webkit-transition: color 0.5s ease-in-out;
     -moz-transition: color 0.5s ease-in-out;
     -o-transition: color 0.5s ease-in-out;
     transition: color 0.5s ease-in-out;
   }
 
-  /* Move down content because we have a fixed navbar that is 50px tall */
   body {
     padding: 50px 10px 20px 10px;
     font-family: "Quicksand" sans-serif;
     background: #fff;
     font-size: 14px;
-    color: #777;
+    color: @BaseColor;
     text-align: left;
     letter-spacing: 1px;
-    text-decoration: none;
   }
 
   a, a:hover, a:active, a:visited {
@@ -55,25 +53,11 @@
   }
 
   footer {
-    bottom:0;
+    bottom: 0;
     clear: both;
     margin-top: 8%;
     padding: 50px;
-    margin-bottom: 0;
     text-align: center;
-  }
-
-/* -----------------------------------*/
-/* ---------->>> HEADINGS <<<-----------*/
-/* -----------------------------------*/
-
-  h1 {
-    text-transform: uppercase;
-  }
-
-  h2 {
-    font-family: "Lora", serif;
-    font-size: 1.5em;
   }
 
 /* -----------------------------------*/
@@ -106,28 +90,51 @@
 /* ---------->>> IMAGES <<<-----------*/
 /* -----------------------------------*/
 
-#me {
-  width: 80%;
-  overflow: hidden;
-}
-
-.work_img {
-  width: 100%;
-  overflow: hidden;
-  padding: 0;
-  margin: 0;
-}
-
-/* -----------------------------------*/
-/* ---------->>> INDEX <<<-----------*/
-/* -----------------------------------*/
-
-
-  .plaintext p{
-    letter-spacing: 1px;
-    text-transform: none;
-    line-height: 1.42857143;
+  #me {
+    width: 80%;
+    overflow: hidden;
   }
+
+  .image_hover {
+    text-align: center;
+  }
+
+  .workImg {
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .project_name {
+    font-size: 2em;
+    text-transform: uppercase;
+  }
+
+  .workDescription {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(241, 134, 32, 1);
+    padding: 20%;
+    height: 100%;
+    color: #fff;
+
+    opacity: 0;
+    -webkit-transition: opacity 0.5s ease-in-out;
+    -moz-transition: opacity 0.5s ease-in-out;
+    -o-transition: opacity 0.5s ease-in-out;
+    transition: opacity 0.5s ease-in-out;
+  }
+
+  .col-md-4:hover .workDescription {
+    overflow: hidden;
+    opacity: 1;
+  }
+
+/* -----------------------------------*/
+/* ---------->>> CLASS ELEMENTS <<<-----------*/
+/* -----------------------------------*/
 
   .header h1 {
     .Headers;
@@ -138,13 +145,12 @@
 
   .header p {
     .Headers;
+    font-size: 14px;
     letter-spacing: 8px;
-    font-size: 1em;    
     line-height: 40px;
   }
 
   .article p {
-    text-transform: none;
     margin-top: 10%;
     margin-bottom: 10%;
     padding: 0;
@@ -152,6 +158,14 @@
 
   .article h2 {
     text-align: center;
+    font-family: @AccentFont;
+    font-size: 2em;
+  }
+
+  .plaintext p {
+    letter-spacing: 1px;
+    text-transform: none;
+    line-height: 1.42857143;
   }
 
   .link {
@@ -168,62 +182,6 @@
     letter-spacing: 2px;
   }
 
-  .image_hover {
-    text-align: center;
-  }
-
-  .workImg {
-    width: 100%;
-    overflow: hidden;
-  }
-
-  .project_name {
-    font-size: 2em;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-  }
-
-  .workDescription {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: rgba(241, 134, 32, 1);
-    color: #fff;
-    padding: 20%;
-    height: 100%;
-
-    opacity: 0;
-    -webkit-transition: opacity 0.5s ease-in-out;
-    -moz-transition: opacity 0.5s ease-in-out;
-    -o-transition: opacity 0.5s ease-in-out;
-    transition: opacity 0.5s ease-in-out;
-  }
-
-  .workDescription p {
-    color: #fff;
-  }
-
-  .col-md-4:hover .workDescription {
-    overflow: hidden;
-    opacity: 1;
-  }
-
-  button {
-    text-transform: uppercase;
-    background: none;
-    border: 1px solid #B0B0B0;
-    padding: 10px;
-    border-radius: 2px;
-    .ButtonTransition;
-  }
-
-  button:hover {
-    border: none;
-    color: #efefef;
-    background: #F18620;
-  }
 
 /* -----------------------------------*/
 /* ---------->>> NAV / BUTTONS / FOOTER <<<-----------*/
@@ -240,24 +198,18 @@
     transition: color 0.3s ease-in-out;
   }
 
-  #navbar a:hover, #learn_more:hover {
+  #navbar a:hover {
     color: @Highlight;
-  }
-
-  #learn_more {
-    font-family: @AccentFont, serif;
-    transition: color 0.3s ease-in-out;
-    color: #777;
   }
 
   .cta {
     text-transform: none;
-    font-family: "Lora", serif;
+    font-family:  @AccentFont;
     font-size: 14px;
-    color: #777;
+    color: @BaseColor;
 
     background: none;
-    border: 1px solid #B0B0B0;
+    border: 1px solid @BaseColor;
     padding: 10px;
     border-radius: 2px;
     .ButtonTransition;
@@ -267,6 +219,6 @@
       border: none;
       text-decoration: none;
       color: #efefef;
-      background: #F18620;
+      background: @Highlight;
   }  
 
