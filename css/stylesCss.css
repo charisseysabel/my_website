@@ -437,8 +437,7 @@ main {
 .chapter,
 .content-links {
   text-align: center;
-  margin-right: auto;
-  margin-left: auto;
+  margin: 10% auto 0 auto;
 }
 .chapter {
   color: #777;
