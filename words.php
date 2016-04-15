@@ -14,13 +14,15 @@
         to make it easier for people to understand. These factors make the progress quite slow, but its fun, different and
         extremely rewarding.
     </p>
+    <figure class="screenshot">
+        <img src="../img/words/psithurism.png" alt="Psithurism"/>
+    </figure>
 </article>
 <aside class="content-links">
     <p class="link">
       <a href="http://charisseysabel.github.io/words/">
-        Want to learn a new word?
+        Learn a word
       </a>
     </p>
 </aside>
-
 <?= (file_get_contents("./templates/footer.php") )?>
